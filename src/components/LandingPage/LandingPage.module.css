@@ -1,0 +1,746 @@
+.button3.button3 {
+    left: 1010px;
+    top: 850px;
+    width: 110px;
+    height: 45px;
+    place-content: center;
+  }
+  
+  .button2.button2 {
+    left: 550px;
+    top: 850px;
+    width: 110px;
+    height: 45px;
+    place-content: center;
+  }
+ 
+  .button1.button1 {
+    left: 85px;
+    top: 850px;
+    width: 110px;
+    height: 45px;
+    place-content: center;
+  }
+  
+  .clickHere {
+    color: #fff;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: Mulish, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  
+
+  .root {
+    position: relative;
+    width: 100%;
+    height: 6700px;
+    align-items: flex-start;
+    background-color: #568a87;
+    overflow: hidden;
+  }
+ 
+  .landingAreaImage {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+    width: 1440px;
+    height: 1000px;
+    overflow: visible;
+  }
+
+  .imgDest0 {
+    position: center;
+    width: 100%;
+    height: 965px;
+    background-color: #00000040;
+    background-image:/* webpackIgnore: true */ url('assets/LandingPage.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .imgDest4 {
+    position: absolute;
+    top: 4100px;
+    width: 100%;
+    height: 965px;
+    border-radius: 40px;
+    background-color: #00000040;
+    background-image:/* webpackIgnore: true */ url('assets/CarRental.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .imgDest5 {
+    position: absolute;
+    top: 5100px;
+    width: 100%;
+    height: 965px;
+    border-radius: 40px;
+    background-color: #00000040;
+    background-image:/* webpackIgnore: true */ url('assets/Trees.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .travelFAST {
+    color: #d0a5c0;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    left: 613px;
+    top: 6600px;
+    width: 250px;
+    height: 53px;
+    flex-direction: column;
+  }
+  .slogan2 {
+    color: #fff;
+    font-size: 16px;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 620px;
+    top: 6650px;
+    width: 206px;
+    height: 26px;
+    flex-direction: column;
+  }
+  
+  .contactTitle1 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 96%;
+    font-weight: 800;
+    position: absolute;
+    left: 0;
+    top: 6300px;
+    width: 430px;
+    height: 100px;
+    flex-direction: column;
+  }
+  
+  .contactDetail1 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 6400px;
+    width: 410px;
+    height: 200px;
+    flex-direction: column;
+  }
+
+  .contactTitle2 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 96%;
+    font-weight: 800;
+    position: absolute;
+    left: 520px;
+    top: 6300px;
+    width: 430px;
+    height: 100px;
+    flex-direction: column;
+  }
+  
+  .contactDetail2 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 520px;
+    top: 6400px;
+    width: 410px;
+    height: 200px;
+    flex-direction: column;
+  }
+  
+  .contactTitle3 {
+    color: #fff;
+    font-size: 36px;
+    line-height: 96%;
+    font-weight: 800;
+    position: absolute;
+    left: 1010px;
+    top: 6300px;
+    width: 430px;
+    height: 100px;
+    flex-direction: column;
+  }
+
+  .contactDetail3 {
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 1010px;
+    top: 6400px;
+    width: 410px;
+    height: 200px;
+    flex-direction: column;
+  }
+  
+  .line1 {
+    transform-origin: bottom left;
+    position: absolute;
+    left: 470px;
+    top: 6350px;
+    width: 200px;
+    outline: solid 1.5px #fff;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+  }
+  .line2 {
+    transform-origin: bottom left;
+    position: absolute;
+    left: 970px;
+    top: 6350px;
+    width: 200px;
+    outline: solid 1.5px #fff;
+    transform: matrix(0, 1, -1, 0, 0, 0);
+  }
+  .contactUs {
+    color: #fff;
+    font-size: 65px;
+    line-height: 96%;
+    font-weight: 800;
+    position: absolute;
+    left: 517px;
+    top: 6150px;
+    width: 430px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .imgDest3 {
+    position: absolute;
+    top: 3100px;
+    width: 100%;
+    height: 965px;
+    border-radius: 40px;
+    background-color: #00000040;
+    background-image:/* webpackIgnore: true */ url('assets/greece.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .greeceHotel1 {
+    position: absolute;
+    left: 85px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Greece1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .greeceHotel2 {
+    position: absolute;
+    left: 550px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Greece2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .greeceHotel3 {
+    position: absolute;
+    left: 1010px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Greece3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .destDetails {
+    color: #fff;
+    font-size: 20px;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 61.3418px;
+    top: 202.9619px;
+    width: 627.6582px;
+    height: 201.4104px;
+    flex-direction: column;
+  }
+  .explore {
+    position: absolute;
+    left: 1039px;
+    top: 170px;
+    width: 236px;
+    height: 64.6268px;
+    overflow: visible;
+  }
+  
+  .exploreText {
+    color: #fff;
+    font-size: 24px;
+    line-height: 96%;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1051px;
+    top: 187px;
+    width: 219px;
+    height: 28.8513px;
+    flex-direction: column;
+  }
+  
+  .imgDest2 {
+    position: absolute;
+    top: 2100px;
+    width: 100%;
+    height: 965px;
+    border-radius: 40px;
+    background-image:/* webpackIgnore: true */ url('assets/french.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    
+  .titleDest {
+    color: #fff;
+    font-size: 40px;
+    line-height: 96%;
+    font-weight: 800;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 85px;
+    width: 350px;
+    height: 65px;
+    flex-direction: column;
+  }
+  .subTitleDest {
+    color: #fff;
+    font-size: 32px;
+    line-height: 96%;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 150px;
+    width: 450px;
+    height: 60px;
+    flex-direction: column;
+  }
+  .learnMore {
+    color: #fff;
+    font-size: 20px;
+    line-height: 96%;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 393.7679px;
+    top: 564.785px;
+    width: 102.1308px;
+    height: 24.3745px;
+    flex-direction: column;
+  }
+
+  .franceHotel1 {
+    position: absolute;
+    left: 85px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/France1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .franceHotel2 {
+    position: absolute;
+    left: 550px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/France2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .franceHotel3 {
+    position: absolute;
+    left: 1010px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/France3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .package2 {
+    color: #27343f;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 750px;
+    top: 900px;
+    width: 250px;
+    height: 20px;
+    flex-direction: column;
+  }
+    
+  .package1 {
+    color: #27343f;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 290px;
+    top: 900px;
+    width: 250px;
+    height: 20px;
+    flex-direction: column;
+  }
+  
+
+  .imgDest1 {
+    position: absolute;
+    top: 1100px;
+    width: 100%;
+    height: 965px;
+    border-radius: 40px;
+    background-image:/* webpackIgnore: true */ url('assets/bahamas.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .rectangle72 {
+    position: absolute;
+    left: 1005px;
+    top: 340px;
+    width: 150px;
+    height: 60px;
+    overflow: visible;
+  }
+  
+  .exploreDestination2 {
+    color: #fff;
+    font-size: 20px;
+    line-height: 96%;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1019px;
+    top: 350px;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .bahamasHotel1 {
+    position: absolute;
+    left: 85px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Bahamas1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bahamasHotel2 {
+    position: absolute;
+    left: 550px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Bahamas2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bahamasHotel3 {
+    position: absolute;
+    left: 1010px;
+    top: 510px;
+    width: 350px;
+    height: 250px;
+    border-radius: 30px;
+    background-image:/* webpackIgnore: true */ url('assets/Bahamas3.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .destinations {
+    color: #fff;
+    font-size: 64px;
+    line-height: 96%;
+    font-weight: 800;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 38px;
+    top: 1010px;
+    width: 400px;
+    height: 71px;
+    flex-direction: column;
+  }
+  
+  .package3 {
+    color: #27343f;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 1200px;
+    top: 900px;
+    width: 250px;
+    height: 20px;
+    flex-direction: column;
+  }
+
+  .textPackage3 {
+    color: #11142d;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 1010px;
+    top: 770px;
+    width: 340px;
+    height: 45px;
+    flex-direction: column;
+  }
+  
+  .textPackage2 {
+    color: #11142d;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 550px;
+    top: 770px;
+    width: 340px;
+    height: 45px;
+    flex-direction: column;
+  }
+
+  .textPackage1 {
+    color: #11142d;
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    font-family: Lora, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    letter-spacing: 0.005em;
+    position: absolute;
+    left: 90px;
+    top: 770px;
+    width: 340px;
+    height: 45px;
+    flex-direction: column;
+  }
+  
+  .card3 {
+    position: absolute;
+    left: 1000px;
+    top: 500px;
+    width: 370px;
+    height: 460px;
+    outline: solid 1px #e1e1e1;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+    
+  .card2 {
+    position: absolute;
+    left: 540px;
+    top: 500px;
+    width: 371px;
+    height: 460px;
+    outline: solid 1px #e1e1e1;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+    
+  .card1 {
+    position: absolute;
+    left: 75px;
+    top: 500px;
+    width: 371px;
+    height: 460px;
+    outline: solid 1px #e1e1e1;
+    outline-offset: -1px;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+    
+  .checkBookingArea {
+    position: absolute;
+    left: 871px;
+    top: 400px;
+    width: 436px;
+    height: 156px;
+    border-radius: 61px;
+    background-color: #fff;
+  }
+  .searchIcon {
+    position: absolute;
+    left: 1196.577px;
+    top: 463.375px;
+    width: 39.8433px;
+    height: 36.5625px;
+    background-image:/* webpackIgnore: true */ url('assets/searchIcon.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .rectangle5 {
+    position: absolute;
+    left: 1022.4047px;
+    top: 515.7812px;
+    width: 126.3603px;
+    height: 37.7812px;
+    border-radius: 37px;
+    background-color: #d0a5c0;
+  }
+  .checkNow {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 1029.235px;
+    top: 519.4375px;
+    width: 130.9138px;
+    height: 31.6875px;
+    flex-direction: column;
+  }
+  .checkBookingBox {
+    position: absolute;
+    left: 927.6408px;
+    top: 456.614px;
+    width: 317.465px;
+    height: 45.1471px;
+    border-radius: 34px;
+    background-color: #c4c4c466;
+  }
+  .bookingNumber {
+    color: #00000080;
+    font-size: 24px;
+    line-height: 96%;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 947.2715px;
+    top: 463.375px;
+    width: 249.3055px;
+    height: 31.6875px;
+    flex-direction: column;
+  }
+  .checkBookingText {
+    color: #000;
+    font-size: 24px;
+    line-height: 96%;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 912px;
+    top: 413px;
+    width: 369px;
+    height: 44px;
+    flex-direction: column;
+  }
+  .motivationalText {
+    position: absolute;
+    left: 75px;
+    top: 410px;
+    width: 600px;
+    height: 190px;
+    color: #f4f734;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .titleHeading {
+    position: absolute;
+    left: 80px;
+    top: 355px;
+    width: 924px;
+    height: 221.2071px;
+    flex-direction: column;
+  }
+  .slogan {
+    color: #d9661e;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: Lato, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    width: 800px;
+    flex-direction: column;
+  }
+    
